@@ -1,0 +1,900 @@
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 125%;
+    text-align: center;
+    color: #FAFDFF;
+}
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FAFDFF;
+
+}
+
+
+p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: left;
+    color: #FAFDFF;
+    opacity: 0.60;
+}
+
+.btn-login{
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+    background: unset;
+    white-space: nowrap;
+}
+.btn-login:hover{
+    color: #4AA647;
+
+}
+.btn-reg {
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+
+    border-radius: 50px;
+    padding: 18px 30px;
+    transition: 0.3s;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(235, 235, 235, 1);
+    white-space: nowrap;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+
+
+
+}
+.btn-reg:hover, .btn-reg:active{
+    background: #4AA647;
+}
+
+.btn{
+    background: linear-gradient(90deg, #52D17C 0%, #4AA647 25.27%),
+    linear-gradient(180deg, rgba(41, 133, 47, 0.301961) 0%, rgba(74, 166, 71, 0) 34.73%);
+    box-shadow: 0px 5px 20px 0px #4FC46C33;
+
+    width: max-content;
+    height: 63px;
+    padding: 10px 30px;
+    opacity: 1;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: rgba(235, 235, 235, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.section-margin{
+    margin-top: 120px;
+}
+
+
+
+
+/*============-global-style-end-==========*/
+
+
+
+
+
+
+.convenient-main{
+    padding-top: 157px;
+    background: #080B0A;
+
+}
+
+.convenient-title{
+    gap: 16px;
+    position: relative;
+    z-index: 2;
+
+}
+.convenient-title h1{
+    max-width: 600px;
+    width: 100%;
+}
+.convenient-title p{
+    text-align: center;
+    max-width: 462px;
+    width: 100%;
+}
+.convenient-title .btn{
+    margin-top: 10px;
+}
+
+
+.convenient-photo{
+    margin-top: -150px;
+    justify-content: center;
+}
+
+
+
+.global-title{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.global-title p{
+    text-align: center;
+    max-width: 640px;
+    width: 100%;
+}
+
+.spreadsheet-flex{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    radial-gradient(24.69% 51.87% at 61.77% 101.87%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%),
+    radial-gradient(37.5% 50% at 99.27% 0%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 20px;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+
+
+.spreadsheet-cnt{
+    max-width: 785px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.spreadsheet-box{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: linear-gradient(91.3deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.04) 100%);
+    width: 100%;
+    border-radius: 22px;
+    padding: 25px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.spreadsheet-icon{
+    max-width: 60px;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(91.3deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.04) 100%);
+    border-radius: 15px;
+    border: 1.63px solid rgba(255, 255, 255, 0.2);
+
+
+}
+.spreadsheet-title h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FAFDFF;
+    text-align: left;
+}
+.spreadsheet-title p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+
+.tools-free{
+    margin-top: 20px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    radial-gradient(59.22% 109.47% at 100.17% 1.59%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    border-radius: 25px;
+    gap: 40px;
+    padding-right: 48px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.tools-free:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/blus-grid.png");
+    border-radius: 25px;
+
+}
+.tools-free-name{
+    padding: 60px 0;
+    max-width: 371px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+.tools-free-name h2{
+    text-align: left;
+}
+.tools-free-name p{
+    margin-top: 20px;
+
+}
+
+.tools-free-name .btn{
+    margin-top: 50px;
+    padding: 10px 40px;
+}
+
+.tools-free-pic{
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.spreadsheet-photo{
+    max-width: 360px;
+    width: 100%;
+}
+.spreadsheet-photo img{
+    width: 100%;
+    border-radius: 22px;
+}
+
+
+
+
+
+
+
+.tools-tables-flex{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tools-tables-box{
+    width: calc(33.333333% - 14px);
+    box-shadow: 0px 0px 12px 0px #0000001F;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    radial-gradient(60.72% 102.32% at 0% 100%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
+.tools-tables-pic{
+    width: 100%;
+}
+.tools-tables-pic img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.tools-tables-info{
+    margin-top: 12px;
+    padding: 12px 2px 12px 12px;
+}
+
+
+
+
+.tools-tables-info h4{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FAFDFF;
+}
+.tools-tables-info p{
+    margin-top: 10px;
+}
+
+.tools-tables-btn{
+    margin-top: 15px;
+    width: 100%;
+    transition: 0.2s;
+}
+.tools-tables-btn:hover .tables-arrow{
+    opacity: 0.7;
+}
+.tools-tables-btn span{
+    color: #FAFDFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+}
+.tables-arrow{
+    border: 1.63px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(91.3deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.04) 100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    position: relative;
+}
+.tables-arrow:before{
+    content: "";
+    position: absolute;
+    border-top: 2px solid #D9D9D9;
+    border-right: 2px solid #D9D9D9;
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+    transition: 0.3s;
+    right: 16px;
+}
+
+
+
+
+
+
+.online-editor-flex{
+    margin-top: 40px;
+    gap: 20px;
+}
+.online-editor-box{
+    width: calc(33.333333% - 14px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 12px 0px #0000001F;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    radial-gradient(60.72% 102.32% at 0% 100%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    padding: 30px;
+    border-radius: 22px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+.online-editor-head{
+    gap: 20px;
+}
+
+.editor-numb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.63px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(91.3deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.04) 100%);
+    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+    color: #FAFDFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+.edit-grad{
+    background: radial-gradient(284.72% 284.7% at 2.94% 0.54%, #20A85E 0%, #09442A 94%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(80.65% 70.01% at 51.14% 60.01%, rgba(51, 166, 98, 0) 58%, rgba(152, 240, 176, 0.301961) 97%);
+
+}
+.editor-icons{
+    display: flex;
+    width: 36px;
+
+}
+.online-editor-name h4{
+    color: #FAFDFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+.online-editor-name p{
+    margin-top: 10px;
+}
+
+
+
+.online-editor-fon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+
+
+.online-editor-box:last-child{
+    justify-content: flex-end;
+}
+.online-editor-box .btn{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+#faq h2{
+    text-align: center;
+}
+
+.accordion{
+    margin-top: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+.questions-click{
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+
+}
+.questions-click h4{
+    color: #FAFDFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.questions-box{
+    margin-top: 15px;
+    border-radius: 22px;
+    width: 100%;
+    position: relative;
+    background: #FFFFFF0D;
+    border: 0.4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 12px 0px #0000001F;
+}
+
+
+.open-accordion{
+    max-width: 40px;
+    min-width: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(91.3deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.04) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+}
+
+.open-accordion:before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    transition: 0.3s;
+    border-top: 2px solid rgba(235, 235, 235, 1);
+    border-right: 2px solid rgba(235, 235, 235, 1);
+    transform: rotate(135deg);
+}
+
+.open .open-accordion:before{
+    transform: rotate(-45deg);
+    top: 15px;
+}
+
+.submenu-faq{
+    display: none;
+}
+.questions-text{
+    padding: 0 22px 30px ;
+}
+
+
+
+.features-main{
+    margin-bottom: -100px;
+    z-index: 9;
+}
+.features-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    radial-gradient(59.22% 109.47% at 100.17% 1.59%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(40.76% 94.52% at 0.75% 100%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    gap: 40px;
+    padding: 80px 100px;
+    backdrop-filter: blur(50px);
+
+}
+
+.features-info{
+    max-width: 600px;
+    width: 100%;
+}
+.features-info h2{
+text-align: left;
+}
+.features-info p{
+    margin-top: 20px;
+}
+.features-info .btn{
+    margin-top: 50px;
+}
+.features-photo{
+    max-width: 401px;
+    width: 100%;
+}
+
+
+footer{
+    padding: 150px 0 60px;
+    background: #080B0A;
+
+
+
+
+}
+.footer-cnt{
+    gap: 20px;
+    position: relative;
+    z-index: 11;
+
+}
+.footer-btn{
+    gap: 18px;
+}
+
+
+
+
+
+
+
+.creating-min .container{
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1299px){
+    .convenient-photo {
+        margin-top: -70px;
+    }
+}
+
+
+
+@media (max-width: 1199px){
+    .tools-free {
+        padding-right: 10px;
+        padding-left: 50px;
+    }
+    .features-box {
+        padding: 35px 30px;
+    }
+}
+
+
+@media (max-width: 1020px){
+    h1 {
+        font-size: 32px;
+    }
+    .convenient-main {
+        padding-top: 130px;
+    }
+    .btn {
+        height: 50px;
+        padding: 8px 24px;
+        font-size: 16px;
+    }
+
+    .section-margin {
+        margin-top: 80px;
+    }
+
+
+
+    .spreadsheet-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tools-tables-flex{
+        justify-content: center;
+    }
+    .tools-tables-box {
+        width: calc(50% - 14px);
+    }
+    .tools-free {
+        padding-right: 0;
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tools-free-name {
+        padding: 30px;
+        max-width: 100%;
+    }
+    .tools-free-name p{
+        max-width: 450px;
+        width: 100%;
+    }
+    .tools-free-name .btn {
+        margin-top: 30px;
+        padding: 10px 30px;
+    }
+    .online-editor-box {
+        width: calc(50% - 14px);
+
+    }
+    .features-box {
+        padding: 25px;
+        flex-direction: column;
+    }
+    .features-info {
+        max-width: 100%;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .accordion{
+        margin: 30px auto 0;
+    }
+
+    .accordion-items {
+        width: 100%;
+    }
+    .accordion {
+        margin-top: 30px;
+    }
+    .questions-click {
+        gap: 11px;
+        padding: 16px;
+    }
+
+    .questions-box {
+        margin-top: 12px;
+        border-radius: 15px;
+    }
+    .questions-text p {
+        font-size: 14px;
+    }
+    .questions-text {
+        padding: 0 15px 16px;
+    }
+
+    .footer-menu {
+        margin: 0;
+        width: 100%;
+    }
+    .footer-cnt {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+        gap: 40px;
+    }
+    .footer-menu ul {
+        gap: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .btn-reg {
+        padding: 15px 24px;
+    }
+    .footer-menu {
+        padding-left: 41px;
+    }
+    .footer-btn{
+        margin-left: 41px;
+
+    }
+}
+
+
+@media (max-width: 767px){
+    .convenient-photo {
+        margin-top: -20px;
+        object-fit: cover;
+    }
+    .convenient-photo img{
+        height: 295px;
+        object-fit: cover;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+        line-height: 140%;
+    }
+    .convenient-title h1 {
+        max-width: 300px;
+    }
+    .convenient-title p {
+        max-width: 330px;
+    }
+
+    .spreadsheet-flex {
+        padding: 15px;
+        margin-top: 30px;
+    }
+    .spreadsheet-box {
+        padding: 20px;
+    }
+    .spreadsheet-icon {
+        max-width: 50px;
+        height: 50px;
+        border-radius: 12px;
+        padding: 8px;
+    }
+    .spreadsheet-photo {
+        max-width: 560px;
+    }
+    .tools-tables-box {
+        width: 100%;
+    }
+    .online-editor-box {
+        width: 100%;
+    }
+    .questions-click h4 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .open-accordion:before {
+        width: 7px;
+        height: 7px;
+        top: 9px;
+    }
+    .open .open-accordion:before {
+        top: 13px;
+    }
+}
+
+
+
+@media (max-width: 570px) {
+
+
+    .convenient-photo img {
+        height: 200px;
+        object-fit: cover;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .spreadsheet-box {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 15px;
+    }
+    .spreadsheet-title h4 {
+        font-size: 15px;
+    }
+    .spreadsheet-photo img {
+        border-radius: 15px;
+    }
+    .global-title h2{
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .tools-tables-box {
+        border-radius: 20px;
+        padding: 15px;
+    }
+    .tools-tables-info {
+        padding: 8px 2px 8px 8px;
+    }
+
+    .tools-tables-info h4 {
+        font-size: 15px;
+    }
+    .tools-tables-btn span {
+        font-size: 12px;
+    }
+    .tables-arrow {
+        width: 36px;
+        height: 36px;
+        border-radius: 6px;
+    }
+    .open-accordion {
+        max-width: 32px;
+        height: 32px;
+        min-width: 32px;
+    }
+
+
+
+
+    .online-editor-flex {
+        margin-top: 30px;
+        gap: 15px;
+    }
+    .online-editor-box {
+        padding: 20px;
+        border-radius: 15px;
+        height: 200px;
+    }
+    .online-editor-name h4 {
+        font-size: 15px;
+    }
+
+    .editor-numb {
+        border-radius: 12px;
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .footer-cnt {
+        gap: 40px;
+        align-items: flex-start;
+    }
+    .features-info .btn {
+        margin-top: 30px;
+    }
+    .btn {
+        height: 44px;
+        padding: 8px 24px;
+        font-size: 14px;
+    }
+    .footer-btn {
+        flex-direction: row;
+    }
+
+}

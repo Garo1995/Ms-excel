@@ -1,0 +1,229 @@
+header{
+    position: fixed;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    z-index: 999;
+}
+.header-main{
+    padding: 20px 20px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    linear-gradient(91.3deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border: 1px solid  rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+
+}
+.logo{
+    width: 208px;
+}
+
+.menu-mobile{
+    gap: 230px;
+}
+.menu-scroll {
+    gap: 30px;
+}
+.menu-scroll a{
+    color: #FAFDFF;
+    font-size: 15px;
+    font-weight: 350;
+    line-height: 20px;
+    text-align: center;
+    transition: 0.3s;
+    position: relative;
+    white-space: nowrap;
+}
+.menu-scroll a:hover{
+    color: #52D17C;
+
+}
+.header-btn{
+    gap: 18px;
+}
+.open-menu{
+    display: none;
+}
+.close-menu {
+    display: none;
+}
+.close-menu span {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+
+}
+
+.close-menu span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 3px;
+    position: relative;
+}
+.close-menu span:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: -3px;
+}
+
+.close-menu span:nth-child(3){
+    display: none;
+}
+
+.body_fix {
+    overflow: hidden;
+}
+
+.menu-name-mob{
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    .menu-mobile {
+        gap: 153px;
+    }
+    .nav-menu ul {
+        gap: 30px;
+    }
+    .header-main {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 190px;
+    }
+}
+@media (max-width: 1020px) {
+    .nav-menu{
+        position: relative;
+        z-index: 1;
+    }
+    .menu-name-mob{
+        display: block;
+    }
+
+    header {
+        top: 20px;
+    }
+    .open-menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        transition: 0.3s;
+        z-index: 111111;
+        width: 24px;
+        height: 24px;
+    }
+    .open-menu span{
+        display: flex;
+        width: 17px;
+        height: 2px;
+        transition: 0.3s;
+        background: linear-gradient(92.47deg, rgba(235, 235, 235, 0.7) 0%, #EBEBEB 100%);
+
+    }
+    .nav-menu {
+        margin-left: 41px;
+    }
+    .header-btn{
+        margin-left: 41px;
+
+    }
+    .menu-content {
+        width: 100%;
+        position: fixed;
+        z-index: 99999;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+        height: 0;
+        overflow: hidden;
+    }
+    .transition-menu {
+        height: 365px;
+        -webkit-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .menu-mobile{
+        padding: 20px 15px 20px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        gap: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 12px;
+
+        backdrop-filter: blur(50px);
+
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        linear-gradient(91.3deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
+        margin-top: -1px;
+        margin-left: -1px;
+
+    }
+
+
+    .nav-menu ul {
+        align-items: center;
+        gap: 18px 25px;
+        flex-wrap: wrap;
+        max-width: 174px;
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-menu a {
+        padding: 8px 24px;
+    }
+    .menu-mobile .glob-tit-name{
+        display: flex;
+        margin: 0;
+    }
+    .header-btn {
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        gap: 18px;
+    }
+    .menu-name-mob {
+        width: 100%;
+    }
+    .header-btn .btn-login{
+        max-width: 320px;
+        width: 100%;
+    }
+    .header-btn .btn-reg{
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .header-main {
+        border-radius: 15px;
+    }
+    .nav-menu a {
+        padding: 0;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-menu ul {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .menu-mobile{
+        align-items: flex-start;
+    }
+}
