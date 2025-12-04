@@ -43,7 +43,7 @@ p{
     background: linear-gradient(360deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
 
     border-radius: 50px;
-    padding: 18px 30px;
+    padding: 15px 30px;
     transition: 0.3s;
     font-weight: 600;
     font-size: 15px;
@@ -69,7 +69,7 @@ p{
 
     width: max-content;
     height: 63px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     opacity: 1;
     border-radius: 50px;
     transition: 0.3s;
@@ -411,7 +411,7 @@ p{
 .editor-icons{
     display: flex;
     width: 36px;
-
+    height: 36px;
 }
 .online-editor-name h4{
     color: #FAFDFF;
@@ -524,8 +524,11 @@ p{
 }
 .questions-text{
     padding: 0 22px 30px ;
-}
 
+}
+.questions-text p{
+    font-weight: 300;
+}
 
 
 .features-main{
@@ -758,7 +761,6 @@ footer{
     }
     p {
         font-size: 12px;
-        line-height: 140%;
     }
     .convenient-title h1 {
         max-width: 300px;
@@ -896,5 +898,52 @@ footer{
     .footer-btn {
         flex-direction: row;
     }
-
+    .online-editor-fon {
+        height: 92%;
+        width: 91%;
+    }
+    .online-editor-box:nth-child(4){
+        order: 5;
+    }
+    .online-editor-box:nth-child(5){
+        order: 4;
+    }
+    .online-editor-box:nth-child(6){
+        order: 6;
+    }
+    .btn-reg {
+        padding: 12px 25px;
+        font-size: 12px;
+    }
+    .btn-login {
+        transition: 0.3s;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 130%;
+        text-align: center;
+        color: #FFFFFF;
+        background: unset;
+        white-space: nowrap;
+    }
+    .spreadsheet-cnt {
+        gap: 12px;
+    }
+    .spreadsheet-title p {
+        font-size: 12px;
+    }
+    .tables-arrow:before {
+        width: 7px;
+        height: 7px;
+        right: 14px;
+    }
+    .tools-free-name {
+        padding: 20px;
+    }
+    .features-box {
+        border-radius: 20px;
+    }
+    .tools-tables-flex {
+        margin-top: 30px;
+        gap: 15px;
+    }
 }
